@@ -1,0 +1,19 @@
+Benchmark scripts for Speck annotation checker
+----------------------------------------------
+
+gal_test.pl -- GAL/Bioperl variant
+
+  - Requires GAL (http://www.sequenceontology.org/software/GAL.html) 
+    and Bioperl (from CPAN)
+
+gffutils_test.py -- gffutils/Biopython variant
+
+  - Requires gffutils (https://pythonhosted.org/gffutils) and Biopython
+    (both installable via pip)
+  - Python3 compatible
+
+specs directory
+
+  - contains use cases
+
+TODO: create Dockerfile for benchmark environment
