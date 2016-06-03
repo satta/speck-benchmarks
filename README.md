@@ -1,5 +1,4 @@
-Benchmark scripts for Speck annotation checker
-----------------------------------------------
+# Benchmark scripts for Speck annotation checker [![](https://imagelayers.io/badge/satta/speck-benchmarks:latest.svg)](https://imagelayers.io/?images=satta/speck-benchmarks:latest 'Get your own badge on imagelayers.io')
 
 gal_test.pl -- GAL/Bioperl variant
 
@@ -15,5 +14,3 @@ gffutils_test.py -- gffutils/Biopython variant
 specs directory
 
   - contains use cases
-
-TODO: create Dockerfile for benchmark environment
