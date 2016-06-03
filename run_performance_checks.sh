@@ -5,8 +5,7 @@ mkdir -p $2
 for f in `ls | cut -f 1 -d . | sort | uniq`; do
   if [ -e $f.noseq.gff3.gz ]; then
     gunzip $f.noseq.gff3.gz
-    rm -f $f.run.o $f.run.e
-    rm -f $2/$f.runtime;
+    rm -f $2/$f.runtime
     $3/measure_space_peak.sh $3/gal_test.pl \
       $f.noseq.gff3 $f.genome.fasta > $f.gal.runtime.tmp 2>&1
     gffutils-cli create $f.noseq.gff3

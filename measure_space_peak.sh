@@ -25,7 +25,7 @@ maxVmExe=0
 maxVmLib=0
 maxVmPTE=0
 
-time --format="time:%e" $@ 2>&1 &
+/usr/bin/time --format="time:%e" $@ 2>&1 &
 tpid=`pgrep -P ${ppid} -n -f time`
 if [[ ${tpid} -ne "" ]]; then
   pid=`pgrep -P ${tpid} -n -f $1` # $! may work here but not later
