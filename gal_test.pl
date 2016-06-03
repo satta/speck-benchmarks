@@ -89,7 +89,6 @@ sub mrna_minimum_length {
 
 sub mrna_internal_stop_codon {
   my $mrna = shift(@_);
-  print $mrna->protein_seq;
   if ($mrna->protein_seq =~ m/[*#+]/) {
     $fails{"mRNA"}{"internal_stop_codon"}++;
   }
@@ -126,3 +125,4 @@ while (my $feat = $features->next) {
 }
 
 print Dumper(\%fails);
+
