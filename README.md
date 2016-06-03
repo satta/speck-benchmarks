@@ -1,11 +1,11 @@
 # Benchmark scripts for Speck annotation checker [![](https://imagelayers.io/badge/satta/speck-benchmarks:latest.svg)](https://imagelayers.io/?images=satta/speck-benchmarks:latest 'Get your own badge on imagelayers.io')
 
-gal_test.pl -- GAL/Bioperl variant
+`gal_test.pl` -- GAL/Bioperl variant
 
   - Requires GAL (http://www.sequenceontology.org/software/GAL.html) 
     and Bioperl (from CPAN)
 
-gffutils_test.py -- gffutils/Biopython variant
+`gffutils_test.py` -- gffutils/Biopython variant
 
   - Requires gffutils (https://pythonhosted.org/gffutils) and Biopython
     (both installable via pip)
@@ -14,3 +14,10 @@ gffutils_test.py -- gffutils/Biopython variant
 specs directory
 
   - contains use cases
+
+## Usage
+
+```
+docker run -v /tmp:/mnt/out satta/speck-benchmarks /opt/scripts/run_performance_checks.sh /opt/genomes /mnt/out /opt/scripts
+
+```
