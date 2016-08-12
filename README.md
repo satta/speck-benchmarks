@@ -1,4 +1,4 @@
-# Benchmark scripts for Speck annotation checker [![](https://imagelayers.io/badge/satta/speck-benchmarks:latest.svg)](https://imagelayers.io/?images=satta/speck-benchmarks:latest 'Get your own badge on imagelayers.io')
+# Benchmark scripts for Speck annotation checker [![](https://images.microbadger.com/badges/image/satta/speck-benchmarks.svg)](https://microbadger.com/images/satta/speck-benchmarks "Get your own image badge on microbadger.com")
 
 `gal_test.pl` -- GAL/Bioperl variant
 
